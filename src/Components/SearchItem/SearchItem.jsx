@@ -19,7 +19,7 @@ const SearchItem = () => {
 
     return (
         <div className='p-4 md:p-20 space-y-5'>
-            <h1 className='text-5xl font-bold italic text-center'>Search Item</h1>
+            <h1 className='text-5xl font-bold italic text-center'>Search Items</h1>
             <input
                 onChange={handleSearchItem}
                 value={data}
