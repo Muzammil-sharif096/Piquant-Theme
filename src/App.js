@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import CardData from './Components/CardData/CardData';
+import Chief from './Components/Cheif/Chief';
+import Footer from './Components/Footer/Footer';
+import Gallery from './Components/Gallery/Gallery';
+import Happy from './Components/Happy/Happy';
+import Navbar from './Components/Navbar/Navbar';
+import News from './Components/News/News';
+import Parallel from './Components/Parallel/Parallel';
+import SearchItem from './Components/SearchItem/SearchItem';
+import Welcome from './Components/Welcome/Welcome';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <CardData />
+      <Gallery />
+      <Welcome />
+      <Parallel />
+      <SearchItem />
+      <Chief />
+      <News />
+      <Happy />
+      <Footer />
+    </>
   );
 }
 

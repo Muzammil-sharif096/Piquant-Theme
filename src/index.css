@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav {
+  background-image: url(../public/images/home-1-opening-hours-background.jpg);
+  background-size: 100% 100%;
+}
+
+.chief {
+  background-image: url(../public/images/new-parallax-1.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.happy {
+  background-image: url(../public/images/new-parallax-2.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.parallel {
+  background-image: url(../public/images/parallax-3.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
